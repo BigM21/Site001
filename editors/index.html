@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/mediastyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+
+    <!-- <style>
+        .date-container {
+          position: relative;
+          display: inline-block;
+        }
+    
+        #dob {
+          padding: 10px;
+          width: 200px;
+          box-sizing: border-box;
+        }
+    
+        #calendar-icon {
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+          cursor: pointer;
+        }
+      </style> -->
+  </head>
+  <body>
+    <section id="main">
+      <div class="container form__container">
+        <div class="main__body">
+          <div class="main__img">
+            <img src="../images/Logo.png" alt="">
+          </div>
+          <h1 id="main_h1">For Individuals</h1>
+          <div class="main__p">
+            <p>
+              Start benefiting from the wellness experience. For <br />
+              companies looking on increasing productivity, and improving <br />
+              organization wellness.
+            </p>
+          </div>
+        </div>
+
+        <div class="form__body">
+          <div class="form">
+            <div class="form__row">
+              <div class="form__input">
+                <label for="" class="input__names">FirstName</label>
+                <input type="text" id="first__name" placeholder="FullName" />
+              </div>
+              <div class="form__input">
+                <label for="" class="input__names">LastName</label>
+                <input type="text" id="last__name" placeholder="FullName" />
+              </div>
+            </div>
+
+            <div class="form__row" id="gend__dob">
+              <div class="form__input">
+                <label for="" class="input__names">Gender</label>
+                <select name="gender" id="gender__dp">
+                  <option value="" selected>Select Here</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                  <option value="M">Rather Not Say</option>
+                </select>
+              </div>
+              <div class="form__input">
+                <label for="" class="input__names">Date Of Birth</label>
+                <input type="date" placeholder="Select Here" id="age" />
+              </div>
+            </div>
+
+            <!-- <form>
+                          <label for="dob">Date of Birth:</label>
+                          <div class="date-container">
+                            <input type="text" id="dob" name="dob" placeholder="Select Here" />
+                            <span id="calendar-icon">📅</span>
+                          </div>
+                        </form> -->
+
+            <div class="form__row">
+              <div class="form__input">
+                <label for="" class="input__names">Weight (Kg)</label>
+                <input type="text" id="weight" placeholder="FullName" />
+              </div>
+              <div class="form__input">
+                <label for="" class="input__names">Height (CM)</label>
+                <input type="text" id="height" placeholder="FullName" />
+              </div>
+            </div>
+
+            <div class="str__input form__input">
+              <label for="" class="input__names">Activity Level</label>
+              <select name="gender" id="activity__dp">
+                <option value="" selected>Select Here</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="M">Rather Not Say</option>
+              </select>
+            </div>
+
+            <div class="str__input form__input">
+              <label for="" class="input__names">Password</label>
+              <input type="password" placeholder="Select Here" id="password" />
+            </div>
+
+            <div class="form__btn">
+              <!-- <a type="btn" href="" id="form_btn">Register</a> -->
+              <a href="" id="btn">Register</a>
+            </div>
+
+            <p id="t__c">
+              By clicking Register, you agree to our
+              <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+      flatpickr("#dob", {
+        dateFormat: "m/d/Y",
+        allowInput: true,
+      });
+  
+      document.getElementById('calendar-icon').addEventListener('click', function () {
+        document.getElementById('dob').flatpickr.open();
+      });
+    </script> -->
+  </body>
+</html>

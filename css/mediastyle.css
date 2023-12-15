@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+
+    #main {
+        overflow-x: hidden;
+    }
+    .form__container {
+        display: block;
+        overflow-x: hidden;
+    }
+
+
+
+    .main__body {
+        margin: 40px 20px;
+    }
+
+
+
+    .main__img {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 50px;
+    }
+
+    .main__body h1 {
+        font-size: 30px;
+    }
+
+    .main__p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+
+
+    .form__body {
+        height: 900px;
+        width: 90vw;
+        margin: 20px 8px;
+    }
+
+    .form {
+        padding: 10% 2% 200px 10px;
+        height: 100%;
+    }
+
+
+
+    .form__row {
+        display: block;
+    }
+    
+}
